@@ -8,9 +8,9 @@ module.exports = ({ env }) => ({
     config: {
       provider: "cloudinary",
       providerOptions: {
-        cloud_name: 'spmglobaltech', 
-        api_key: '477663449287523', 
-        api_secret: 'jIuGudnBK-B1AXDF6EFap6PChrc' 
+        cloud_name: 'do4lpm3un', 
+        api_key: '192295799214958', 
+        api_secret: 'vTdJJ_HPN2QyOE0bLEoWCyiKBK4' 
       },
       actionOptions: {
         upload: {},
