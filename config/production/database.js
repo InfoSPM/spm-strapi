@@ -1,5 +1,6 @@
 const parse = require('pg-connection-string').parse;
-const config = parse('postgres://uajbchhyhbxuyl:35d3c31cd9f00a9639c9e77e6d09971bd02aa242506cb6b2bc6186d778e677f8@ec2-52-48-159-67.eu-west-1.compute.amazonaws.com:5432/dbtn6shd4j5opr');
+// const config = parse('postgres://uajbchhyhbxuyl:35d3c31cd9f00a9639c9e77e6d09971bd02aa242506cb6b2bc6186d778e677f8@ec2-52-48-159-67.eu-west-1.compute.amazonaws.com:5432/dbtn6shd4j5opr');
+const config = parse('postgres://ydkmubzbbggjrs:987a4bf651c68622165273f4ad1e02ef44182490b2598c912ed76a1f0ddc5440@ec2-99-81-68-240.eu-west-1.compute.amazonaws.com:5432/d6bq3ugli3hdbe');
 module.exports = ({ env }) => ({
   connection: {
     client: 'postgres',
