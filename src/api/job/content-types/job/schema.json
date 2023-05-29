@@ -1,0 +1,60 @@
+{
+  "kind": "collectionType",
+  "collectionName": "jobs",
+  "info": {
+    "singularName": "job",
+    "pluralName": "jobs",
+    "displayName": "Job",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title",
+      "required": true
+    },
+    "shortText": {
+      "type": "string",
+      "required": true
+    },
+    "btnText": {
+      "type": "string",
+      "required": true,
+      "default": "Apply Now"
+    },
+    "JobPosition": {
+      "type": "string",
+      "required": true
+    },
+    "Location": {
+      "type": "string",
+      "required": true
+    },
+    "JobStatus": {
+      "type": "string",
+      "required": true
+    },
+    "detailsText": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}
