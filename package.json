@@ -19,6 +19,8 @@
     "next-seo": "^5.5.0",
     "pg": "8.6.0",
     "pg-connection-string": "^2.5.0"
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
   },
   "author": {
     "name": "A Strapi developer"
