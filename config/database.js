@@ -13,7 +13,7 @@
 //   },
 // });
 
-const parse = require('pg-connection-stri+-ng').parse;
+const parse = require('pg-connection-string').parse;
 // const config = parse('postgres://uajbchhyhbxuyl:35d3c31cd9f00a9639c9e77e6d09971bd02aa242506cb6b2bc6186d778e677f8@ec2-52-48-159-67.eu-west-1.compute.amazonaws.com:5432/dbtn6shd4j5opr');
 const config = parse('postgres://u7jb53tfamlkm5:pdeebe96af583d7f37370b18670b469e74a8b04eb425c1ed2fa454a05a5be7e1f@c5bkpifn3bdgrk.cluster-czz5s0kz4scl.eu-west-1.rds.amazonaws.com:5432/d4ohl51k80iuhc');
 module.exports = ({ env }) => ({
